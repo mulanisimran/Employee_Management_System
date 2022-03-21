@@ -1,0 +1,17 @@
+use mydb;
+
+create table emp_data (EmpID int , firstName varchar(20), surName varchar(20),Age int);
+
+insert into emp_data(EmpID,firstName,surName, Age)
+values(20001,'Simran','Mulani',23);
+insert into emp_data(EmpID,firstName,surName ,Age)
+values(20002,'Sana','Ansari',21);
+insert into emp_data(EmpID,firstName,surName, Age)
+values(20003,'Mustakim','Shaikh',34);
+insert into emp_data(EmpID,firstName,surName, Age)
+values(20004,'Zishan','Mujawar',24);
+insert into emp_data(EmpID,firstName,surName, Age)
+values(20005,'Akil','Mulani',53);
+
+
+select * from emp_data;
